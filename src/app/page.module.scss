@@ -1,0 +1,210 @@
+.bigLine {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 2rem;
+  font-size: 3rem;
+
+  margin-bottom: 2rem;
+
+  a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    border: 5px solid #f2f4f3;
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+
+    color: #eba100;
+
+    &:hover {
+      background-color: #f2f4f3;
+      color: #000000;
+      transition: 0.3s ease-in-out;
+    }
+  }
+}
+
+.headerA {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #f2f4f3;
+  margin-bottom: 1rem;
+  padding: 0 2rem;
+
+  font-family: "pressio", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.headerAb {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #f2f4f3;
+  margin-bottom: 1rem;
+  padding: 0 2rem;
+  text-align: right;
+  font-family: "pressio", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cardA {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #eba100;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  margin: 1rem 2rem;
+
+  h2 {
+    font-size: 2rem;
+    color: #000000;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #000000;
+
+    span {
+      font-size: 1.2rem;
+      font-weight: 900;
+      color: #000000;
+    }
+  }
+}
+
+.sectionA {
+  background-color: #000000;
+
+  hr {
+    border: 0;
+    height: 5px;
+    background-color: #000000;
+    margin: 2rem 0;
+  }
+}
+
+.sectionB {
+  background-color: #eba100;
+
+  hr {
+    border: 0;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 2rem 0;
+  }
+}
+
+.cardB {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #000000;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  margin: 1rem 2rem;
+
+  h2 {
+    font-size: 2rem;
+    color: #ffffff;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #ffffff;
+  }
+}
+
+.headerB {
+  font-size: 3rem;
+  color: #000000;
+  margin-bottom: 1rem;
+  padding: 0 2rem;
+
+  font-family: "pressio", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.headerBb {
+  font-size: 3rem;
+  color: #000000;
+  margin-bottom: 1rem;
+  padding: 0 2rem;
+  text-align: right;
+
+  font-family: "pressio", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 70vh;
+
+  background-image: url("/pittstorm.jpg");
+  background-size: cover;
+  background-position: center;
+
+  font-family: "pressio", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.hero h1 {
+  font-size: 10rem;
+  font-weight: 700;
+  color: #000000;
+  text-shadow: -8px -8px 0 #eba100, 8px -8px 0 #eba100, -8px 8px 0 #eba100,
+    8px 8px 0 #eba100;
+  letter-spacing: 0.5rem;
+
+  @media (min-width: 600px) {
+    font-size: 15rem;
+  }
+
+  @media (max-width: 390px) {
+    font-size: 7rem;
+  }
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  color: #000000;
+  text-shadow: 0 0 10px #fff, 0 0 10px #eba100;
+}
+
+.quickLink {
+  color: #ffffff;
+  font-size: 1.8rem;
+  background-color: #000000;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: fit-content;
+  margin-top: 1rem;
+
+  &:hover {
+    background-color: #fffffe;
+    color: #000000;
+    transition: 0.3s ease-in-out;
+  }
+}
+
+.boxHead {
+  font-family: "pressio", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}

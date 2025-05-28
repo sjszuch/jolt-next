@@ -1,0 +1,38 @@
+.webHero {
+  height: 40vh;
+  background-image: url("/JoltHero.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blurb {
+  background-color: #eba100;
+  color: black;
+  padding: 2rem;
+}
+
+.webServices {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.webHeader {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #eba100;
+  margin-bottom: 1rem;
+}
+
+.subHeader {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #eba100;
+  margin-top: 1rem;
+  text-align: left;
+}

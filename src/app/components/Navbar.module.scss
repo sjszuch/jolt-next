@@ -1,0 +1,42 @@
+.topBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  .contact {
+    margin-left: auto;
+
+    border: 2px solid #eba100;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    color: #eba100;
+
+    &:hover {
+      background-color: #eba100;
+      color: #000000;
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+    }
+  }
+
+  padding: 1rem 1rem;
+  background: rgba(20, 20, 30, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "pressio", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+}
