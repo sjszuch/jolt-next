@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Style from "./page.module.scss";
 import { FaArrowRight } from "react-icons/fa";
 import Link from "next/link";
